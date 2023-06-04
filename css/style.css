@@ -324,7 +324,7 @@ main img{
 .gallery .row img:hover {
     cursor: zoom-in;
     transform: scale(1.2);
-}
+}   
 
 
 /* =========Service section========= */
@@ -666,6 +666,10 @@ footer .bottom p i{
     .questions .row .text .line .activate{
         width: 37px !important;
     }
+
+    .gallery .row img{
+        width: 100%;
+    }
     
 }
 
@@ -754,5 +758,9 @@ footer .bottom p i{
 
     .questions .row .text .line .activate{
         width: 78px !important;
+    }
+
+    .gallery .row img{
+        width: 100%;
     }
 }
